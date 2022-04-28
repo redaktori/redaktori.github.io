@@ -202,6 +202,9 @@ figcaption {
     opacity: 1;
     transform: scale(1);
 }
+input[type=radio],input[type=checkbox]{
+    margin:2px;
+}
 input,textarea{
     margin:20px;
 }
