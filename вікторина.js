@@ -1,4 +1,4 @@
-function check(lang){
+function check(){
 
     let points = 0;
     let p1 = document.quiz.p1.value;
@@ -98,12 +98,8 @@ function check(lang){
     if(degree>9){
         range=0;
     }
-    if(lang === 1){document.getElementById("degree").innerHTML="Балів: "+ points + ". Оцінка: "+ degree;}
-    if(lang === 2){document.getElementById("punktacja").innerHTML="Punktów: "+ points + ". Ocena: "+ degree;}
 
-
-
-
+    document.getElementById("degree").innerHTML="Балів: "+ points + ". Оцінка: "+ degree;
     document.getElementById("gif").src=pictures[range];
 
 

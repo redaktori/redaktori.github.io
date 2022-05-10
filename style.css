@@ -95,14 +95,6 @@ footer{
 .navbar .active{
     background: red;
 }
-.flag{
-    float: right !important;
-}
-
-.flag img{
-    height:50px;
-    width: auto;
-}
 
 p{
     margin: 16px 0;
